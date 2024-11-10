@@ -53,13 +53,15 @@ streamlit run app.py
 
 ## How It Works 🤖
 **User Input:** The user provides their educational background, skills, and goals in the text areas on the web app.
+
 **Generate Learning Path:** Upon clicking the "Generate Learning Path" button, the app processes the input using the AI model and generates a customized learning path.
+
 **Download:** The learning path is displayed on the page, and the user can download it as a .docx file for further use.
 
 ## Contributing 🤝
 If you would like to contribute to this project, feel free to:
 
-Fork the repository
-Create a new branch
-Submit a pull request
+- Fork the repository
+- Create a new branch
+- Submit a pull request
 Your contributions are always welcome!
