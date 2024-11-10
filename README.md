@@ -22,38 +22,40 @@ Before running the application, ensure you have the following installed:
 ```bash
 git clone https://github.com/dasaribhumika/learning-path-generator
 cd learning-path-generator
+```
 
 # Step 2: Create and Activate Virtual Environment
 Create virtual environment:
 ```bash
 python3 -m venv venv
-
+```
 Activate virtual environment (Linux/Mac):
 source venv/bin/activate
 
 Activate virtual environment (Windows):
 ```bash
 .\venv\Scripts\activate
-
+```
 # Step 3: Install Required Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 # Step 4: Set up your environment variables
 Create a .env file in the root of your project directory.
 Add the necessary API keys or environment variables in the .env file. For example:
 ```bash
 API_KEY=your-api-key-here
-
+```
 
 # Step 5: Make sure your .gitignore file is properly set up to ignore the .env file
 Add .env to the .gitignore to prevent accidentally committing your API key to GitHub:
 ```bash
 .env
-
+```
 # Step 6: Run the Application
 ```bash
 streamlit run app.py
-
+```
 # How It Works 🤖
 
 **User Input:**  
